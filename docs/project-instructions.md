@@ -1,17 +1,16 @@
 # MonkeyTravel: project instructions
 
 ## What we're building
-MonkeyTravel is a personalized, AI-generated travel agency, web page first and possibly a smartphone app later. A visitor answers a short quiz about how they like to travel. The product then suggests destinations that fit them and generates a full itinerary for the one they pick. Claude generates the recommendations and plans. The product is in English only for now.
+MonkeyTravel is a personalized, AI-generated trip planner, web page first and possibly a smartphone app later. A visitor answers a short quiz about how they like to travel. The product then suggests destinations that fit them and generates a full itinerary for the one they pick. Claude generates the recommendations and plans. The itinerary is free; the product does not sell or book trips. Possible later income: affiliate links to partner sites (flights, hotels, tours), not selling trips ourselves. The product is in English only for now.
 
 ## Who it's for
-Every kind of traveler. Examples at the two ends of the range:
-- Backpackers and independent travelers deciding where to go based on whether they want to socialize, be in nature, or experience something wild.
-- Families and friend groups who want a relaxing holiday: an all-inclusive resort, or an apartment with restaurant recommendations and activities.
-The traveler type is itself a quiz question. It is asked first and decides which follow-up questions come next.
+Launch audience: independent travelers on a mid budget. These are solo travelers, couples and small friend groups who book their own flights and stays and want help deciding where to go and how to spend their days: wandering, nature, adrenaline, socializing, avoiding touristy areas.
+Later, not now: families and groups who want a relaxing holiday at an all-inclusive resort or in an apartment. Keep the quiz and prompts structured so this path can be added without a rewrite.
+The traveler type stays a quiz question. It is asked first and decides which follow-up questions come next.
 
 ## The product flow
 1. Quiz. It starts with the trip type and who is traveling, then branches into questions specific to that type (see quiz principles), and always covers budget, trip length and travel month.
-2. About four destination options, each with a "why this fits you" line and a short list of things to see or experience.
+2. Three destination options, each with a "why this fits you" line and a short list of things to see or experience.
 3. The user picks one, and a full day-by-day itinerary is generated, matched to their trip type: accommodation suggestions, restaurants, activities and transport as relevant. The user can edit it ("make day 3 calmer").
 
 ## About me
